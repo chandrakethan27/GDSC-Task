@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+Certainly! Here's the README with a touch of emojis:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# Event Management Web App
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This web application serves as an event management platform. It includes functionalities for both administrators and regular users. Administrators can create events and delete events, while users can register for events.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The frontend is developed using React, with Redux for state management. Styling is done using Tailwind CSS and Daisy UI. The backend is built on Node.js and Express, with MongoDB as the database, connected through Mongoose.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Admin Portal:**
+  - 🔐 Login with secure authentication.
+  - 🌟 Create new events with details such as name, date, location, and description.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **User Portal:**
+  - ✍️ User registration with required details.
+  - 🎟️ Browse available events.
+  - 📝 Register for events.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/yourusername/your-repo.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install the dependencies for the frontend and backend:
 
-### `npm run eject`
+   ```bash
+   cd frontend
+   npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   cd ../backend
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Create a `.env` file in the `backend` directory with the following variables:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```
+   PORT=5000
+   MONGO_URI=your_mongodb_uri_here
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start the development servers:
 
-## Learn More
+   ```bash
+   cd frontend
+   npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   cd ../backend
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+- **Admin Portal:**
+  - Access the admin portal by navigating to `/admin` after starting the frontend server.
+  - Log in using your admin credentials.
+  - Create new events with the provided form.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **User Portal:**
+  - Access the user portal by navigating to `/user` after starting the frontend server.
+  - Register with your user details.
+  - Browse available events and register for the ones you're interested in.
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you'd like to contribute, please fork the repository and create a new branch. Pull requests are welcome! 🚀
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
 
-### Advanced Configuration
+## Output
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+User Login - 
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<img width="321" alt="Screenshot 2023-09-08 at 9 28 12 AM" src="https://github.com/chandrakethan27/GDSC-Task/assets/90309231/ec97bd22-f8e8-4884-9c55-01e6fb7e8a91">
 
-### `npm run build` fails to minify
+Home Page - 
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="321" alt="Screenshot 2023-09-08 at 9 28 12 AM" src="https://github.com/chandrakethan27/GDSC-Task/assets/90309231/9ef9a9ee-5584-4b1a-b843-56f6507de7fd">
+
+Registration Page - 
+---
+
+<img width="565" alt="Screenshot 2023-09-08 at 9 38 50 AM" src="https://github.com/chandrakethan27/GDSC-Task/assets/90309231/98c453e3-c8cd-4cea-8c6f-db97ffc797bc">
+
+Admin Login - 
+---
+
+<img width="628" alt="Screenshot 2023-09-08 at 9 39 42 AM" src="https://github.com/chandrakethan27/GDSC-Task/assets/90309231/bd5cd03a-daa7-4784-a7a0-326e6f7648ed">
+
+Admin Home Page - 
+---
+
+<img width="509" alt="Screenshot 2023-09-08 at 9 40 37 AM" src="https://github.com/chandrakethan27/GDSC-Task/assets/90309231/0cce8f6b-818a-4a03-bfe0-d114557f38a1">
+
+Unknown Page - 
+---
+
+<img width="808" alt="Screenshot 2023-09-08 at 9 41 52 AM" src="https://github.com/chandrakethan27/GDSC-Task/assets/90309231/43870ef4-db2e-4846-8baa-f5b0b247df14">
+
+File Structure - 
+---
+Front end -
+---
+![Screenshot 2023-09-08 at 9 43 25 AM](https://github.com/chandrakethan27/GDSC-Task/assets/90309231/39c25d1a-667f-4ff0-9cee-d0cb523055ac)
+
+Back end - 
+---
+![Screenshot 2023-09-08 at 9 45 40 AM](https://github.com/chandrakethan27/GDSC-Task/assets/90309231/3488a7bc-0c5f-4ad5-b2e9-c25dcee91ea1)
