@@ -72,10 +72,6 @@ The frontend is developed using React, with Redux for state management. Styling 
 
 If you'd like to contribute, please fork the repository and create a new branch. Pull requests are welcome! 🚀
 
-## License
-
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
-
 ## Output
 
 
