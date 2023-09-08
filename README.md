@@ -83,7 +83,10 @@ User Login -
 Home Page - 
 ---
 
-<img width="321" alt="Screenshot 2023-09-08 at 9 28 12 AM" src="https://github.com/chandrakethan27/GDSC-Task/assets/90309231/9ef9a9ee-5584-4b1a-b843-56f6507de7fd">
+<img width="524" alt="Screenshot 2023-09-08 at 9 33 46 AM" src="https://github.com/chandrakethan27/GDSC-Task/assets/90309231/b8caebcd-59e8-4513-a600-fb474f6fd236">
+
+<img width="519" alt="Screenshot 2023-09-08 at 9 53 44 AM" src="https://github.com/chandrakethan27/GDSC-Task/assets/90309231/786d26d4-7114-4df4-bb15-28d7067029a0">
+
 
 Registration Page - 
 ---
